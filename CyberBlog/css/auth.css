@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap');
+
+/* global */
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background: url('/img/auth.jpeg') fixed;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 720px !important;
+}
+input {
+  color: #ff2247 !important;
+  text-shadow: 0px 0px 8px black !important;
+  font-size: 18px !important;
+  background: linear-gradient(90deg, #000000f6, #460712d3) !important;
+  border: 3px solid #ff2247 !important;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ff2247;
+}
+
+/* main block */
+.block-blue {
+  color: black;
+  text-shadow: 0px 0px 5px #22f0ff;
+  padding: 10px 30px;
+  color: black;
+  font-size: 30px;
+  background: linear-gradient(90deg, #000000f6, #013236d8);
+  border: 3px solid #22f0ff;
+  border-radius: 20px;
+  box-shadow: 0 0 2px #22f0ff;
+}
+.btn-cyber {
+  font-size: 20px !important;
+  padding: 4px 40px !important;
+  color: #d8d800;
+  transition-delay: 0.2s;
+  border: 3px solid #3ab9ca !important;
+  border-radius: 20px !important;
+  background-color: #00bfd825;
+  margin-right: 10px !important;
+}
+.btn-cyber:hover {
+  color: #8f8f8f;
+  background-color: #00bfd825;
+  box-shadow: 0px 0px 20px #00bfd8;
+}
+.block-danger {
+  color: black;
+  text-shadow: 0px 0px 5px #ff0000;
+  padding: 10px 30px;
+  font-size: 30px;
+  background: linear-gradient(90deg, #000000e1, #790000d8);
+  border: 3px solid #ff0000;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff0000;
+  margin: 20px 5px;
+}
